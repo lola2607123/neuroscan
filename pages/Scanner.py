@@ -56,7 +56,7 @@ if analyse:
         st.write('Confidence level: ' + str(conf[0]))
 
     if str(res[0].names[label[0]].title()) != "no_tumor":
-        subheading = '<p style="font-family:serif; color:red; font-size: 20px;">You have been detected to have a **brain tumor**, seek immediate consultation with a specialist, such as a neurologist or oncologist. Follow their guidance on further testing to understand size and location of the tumor. Discuss treatment options, which may include surgery, radiation, or medication, depending on the diagnosis. Support from family and friends can also be crucial during this time, along with considering second opinions for the best care approach.</p>'
+        subheading = '<p style="font-family:serif; color:white; font-size: 20px;">You have been detected to have a **brain tumor**, seek immediate consultation with a specialist, such as a neurologist or oncologist. Follow their guidance on further testing to understand size and location of the tumor. Discuss treatment options, which may include surgery, radiation, or medication, depending on the diagnosis. Support from family and friends can also be crucial during this time, along with considering second opinions for the best care approach.</p>'
         st.markdown(subheading, unsafe_allow_html=True)    
     else:
         st.subheader("You're healthy!")
