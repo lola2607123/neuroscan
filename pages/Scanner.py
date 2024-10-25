@@ -61,4 +61,5 @@ if analyse:
     else:
         st.subheader("You're healthy!")
 
-st.markdown(<p style="font-size":50;>hello</p>)
+subheading = '<p style="font-family:serif; color:Black; font-size: 30px;text-align: center;">Why Regular Checks Matter Once Symptoms are Displayed</p>'
+
