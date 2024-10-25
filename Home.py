@@ -85,7 +85,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>footer</p>
+<p>© [2024] Brain Tumor Detection | Empowering early detection through accessible technology and information.</p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
