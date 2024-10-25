@@ -60,3 +60,5 @@ if analyse:
         :red[You have been detected to have a ***brain tumor***, seek **immediate** consultation with a specialist, such as a neurologist or oncologist. Follow their guidance on further testing to understand size and location of the tumor. Discuss treatment options, which may include ***surgery, radiation, or medication***, depending on the diagnosis. Support from family and friends can also be crucial during this time, along with considering second opinions for the best care approach.]''')
     else:
         st.subheader("You're healthy!")
+
+st.markdown(‘<p style=“font-size:50;>hello</p>')
