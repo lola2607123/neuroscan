@@ -45,8 +45,8 @@ with st.container():
 if analyse:
     if img is not None:
         img = Image.open(img)
-        subheading = '<p style="font-family:serif; color:white; font-size: 20px;">Image Visualisation</p>'
-        st.markdown(subheading, unsafe_allow_html=True)    
+        sub = '<p style="font-family:serif; color:white; font-size: 20px;">Image Visualisation</p>'
+        st.markdown(sub, unsafe_allow_html=True)    
         st.image(img)
         model = models()
         res = model.predict(img)
